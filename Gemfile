@@ -10,6 +10,9 @@ end
 gem 'ffi', '>= 1.9.14'
 gem 'aws-sdk', '~> 2'
 
+gem 'puppet-resource_api', '~> 1.4', path: '/home/david/git/puppet-resource_api'
+gem 'train', path: '/home/david/git/train'
+
 group :test do
   gem 'bundler', '~> 1.5'
   gem 'minitest', '~> 5.5'
